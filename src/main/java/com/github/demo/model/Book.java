@@ -11,7 +11,7 @@ public class Book {
 
     private String cover;
     
-    private String price;
+    int String price;
 
     public Book() {
 
@@ -28,7 +28,7 @@ public class Book {
         this.cover = cover;
     }
     
-     public Book(String author, String title, String cover) {
+     public Book(String author, String title, String cover, int price) {
         this.author = author;
         this.title = title;
         this.cover = cover;
