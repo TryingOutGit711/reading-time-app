@@ -10,6 +10,8 @@ public class Book {
     private String author;
 
     private String cover;
+    
+    private String price;
 
     public Book() {
 
@@ -24,6 +26,13 @@ public class Book {
         this.author = author;
         this.title = title;
         this.cover = cover;
+    }
+    
+     public Book(String author, String title, String cover) {
+        this.author = author;
+        this.title = title;
+        this.cover = cover;
+         this.price = prices;
     }
 
     public String getTitle() {
